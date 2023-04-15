@@ -4,13 +4,15 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-#wrapper{
-    width: 100vw;
-    height: 100vh;
+body{
     background-image: url(bgImg.jpg);
     background-attachment: fixed; 
     background-size: cover;  
     background-position: center;
+}
+#wrapper{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
